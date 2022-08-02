@@ -114,3 +114,47 @@ button:hover {
 .price {
     display: flex;
 }
+
+.description p {
+    margin-bottom: 5px;
+}
+
+@media screen and (min-height:375px) {
+    body {
+        flex-direction: column;
+    }
+
+    h1 {
+        margin-bottom: 0.25em;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        max-width: 325px;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .photo {
+        margin-right: 0;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+
+    .description p {
+        margin-bottom: 5px;
+    }
+}
